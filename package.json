@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ncbi-variation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "dbSNP refSNP records and HGVS/SPDI/rsID normalization for human genetic variants, from NCBI Variation Services.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-3d3f08cc182b39a34dec11101ca19fbd1a6f703e9bae8fbfb5b209a11c8a47f1",
-    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
+    "sourceHash": "v1-af3978db481e6d7f6266472088c93bfda2add45dfef2e5848c5a733b4aa0cd93",
+    "sourceCommit": "774de7f685a75e02d0b828d24a7b94794102152c"
   }
 }
