@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-ncbi-variation",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "dbSNP refSNP records and HGVS/SPDI/rsID normalization for human genetic variants, from NCBI Variation Services.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-ncbi-variation": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ncbi-variation"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-ncbi-variation.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/ncbi-variation",
   "pipeworx": {
-    "sourceHash": "v1-af3978db481e6d7f6266472088c93bfda2add45dfef2e5848c5a733b4aa0cd93",
-    "sourceCommit": "774de7f685a75e02d0b828d24a7b94794102152c"
+    "mode": "gateway",
+    "slug": "ncbi-variation",
+    "gatewaySlug": "ncbi-variation",
+    "sourceHash": "v1-d0c98921c096e9d2cbbb25ba3f7ab6190f1eec39ff65066a4d83090ed7bb804b",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
