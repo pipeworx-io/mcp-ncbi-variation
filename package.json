@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ncbi-variation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "dbSNP refSNP records and HGVS/SPDI/rsID normalization for human genetic variants, from NCBI Variation Services.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ncbi-variation",
     "gatewaySlug": "ncbi-variation",
-    "sourceHash": "v1-d0c98921c096e9d2cbbb25ba3f7ab6190f1eec39ff65066a4d83090ed7bb804b",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-c617d5382262740700289db7205d49c863c4f1bd736c202fb499ba9ab39fc025",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
